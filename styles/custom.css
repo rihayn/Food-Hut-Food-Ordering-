@@ -1,37 +1,46 @@
 /* @import url(../fonts/Sofia\ Pro\ Regular\ Italic\ Az.otf); */
 @font-face {
-    font-family: Sofia Pro ;
-    src: url(../fonts/Sofia\ Pro\ Regular\ Az.otf);
+  font-family: Sofia Pro;
+  src: url(../fonts/Sofia\ Pro\ Regular\ Az.otf);
 }
 
-.container{
-    max-width: 1440px;
-    padding: 0 70px;
-    margin: 0 auto;
-    box-sizing: border-box;
+.container {
+  max-width: 1440px;
+  padding: 0 70px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
-body{
-    font-family: Sofia Pro, serif ;
+body {
+  font-family: Sofia Pro, serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-button{
-    border: none;
-    background: transparent;
+button {
+  border: none;
+  background: transparent;
 }
 .download-button {
-    width: 162px;
-    height: 45px;
-    border-radius: 100px;
-    background: rgba(246, 95, 95, 1);
+  width: 162px;
+  height: 45px;
+  border-radius: 100px;
+  background: rgba(246, 95, 95, 1);
+  font-family: Sofia Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.16px;
+  color: rgba(13, 13, 13, 1);
+}
+.red {
+  color: #dd4142;
+  span {
     font-family: Sofia Pro;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.16px;
-    color: rgba(13, 13, 13, 1);
-    
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: left;
   }
+}
