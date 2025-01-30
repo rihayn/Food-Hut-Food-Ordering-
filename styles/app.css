@@ -202,7 +202,7 @@
       margin-left: -130px;
       margin-top: -50px;
     }
-    
+
     .rosemary {
       margin-right: -1400px;
     }
@@ -292,7 +292,7 @@
 .menu {
   width: 100%;
   background-color: black;
-  padding-bottom: 119px;
+  padding-bottom: 270px;
 
   .menu-box {
     display: flex;
@@ -337,3 +337,49 @@
     }
   }
 }
+.app {
+  width: 100%;
+  background-color: black;
+  padding-bottom: 54px;
+  display: flex;
+
+  .app-box {
+    width: 100%;
+    display: flex;
+    .app-box-left {
+      width: 50%;
+      h2 {
+        width: 643px;
+        height: 134px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 67.2px;
+        color: rgba(255, 255, 255, 1);
+      }
+      p {
+        width: 550px;
+        height: 72px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24.16px;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.8);
+        margin-top: 47px;
+      }
+      .mobile-app {
+        display: flex;
+        margin-top: 42px;
+        column-gap: 27px;
+        margin-bottom: 250px;
+      }
+    }
+  }
+  .app-box-right {
+    width: 50%;
+    img {
+      margin-top: -190px;
+      margin-left: 100px;
+    }
+  }
+}
+
