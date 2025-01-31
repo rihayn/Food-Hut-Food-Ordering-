@@ -21,7 +21,6 @@
       margin-right: 30px;
     }
     ul {
-      
       display: flex;
       column-gap: 50px;
 
@@ -33,6 +32,9 @@
           line-height: 24.16px;
         }
       }
+    }
+    .responsive-menu {
+      display: none;
     }
   }
   .overview-box {
@@ -166,6 +168,10 @@
         margin-top: 100px;
       }
     }
+    .right {
+      width: 50%;
+      display: none;
+    }
   }
 }
 .special-offer {
@@ -222,6 +228,9 @@
     display: flex;
     .box-left {
       width: 40%;
+      img {
+        display: none;
+      }
     }
     .box-right {
       width: 60%;
@@ -248,10 +257,8 @@
       .list {
         width: 100%;
         display: flex;
-        /* column-gap: 80px; */
         margin-top: 30px;
         ul {
-          /* width: 50%; */
           display: flex;
           flex-direction: column;
           row-gap: 31px;
@@ -374,12 +381,12 @@
         margin-bottom: 250px;
       }
     }
-  }
-  .app-box-right {
-    width: 50%;
-    img {
-      margin-top: -190px;
-      margin-left: 60px;
+    .app-box-right {
+      width: 50%;
+      img {
+        margin-top: -190px;
+        margin-left: 80px;
+      }
     }
   }
 }
@@ -420,72 +427,76 @@ footer {
         column-gap: 25px;
       }
     }
-    .about-us {
-      width: 99px;
-      height: 166.99px;
-      margin-left: 109px;
-      h2 {
+    .footer-double {
+      display: flex;
+      .about-us {
         width: 99px;
-        height: 29.31px;
-        font-family: Sofia Pro;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 33.22px;
-        text-align: left;
-        color: rgba(246, 95, 95, 1);
-        margin-bottom: 15px;
+        height: 166.99px;
+        margin-left: 109px;
+        h2 {
+          width: 99px;
+          height: 29.31px;
+          font-family: Sofia Pro;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 33.22px;
+          text-align: left;
+          color: rgba(246, 95, 95, 1);
+          margin-bottom: 15px;
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          row-gap: 12px;
+          li {
+            a {
+              display: block;
+              width: 105px;
+              height: 21.32px;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 24.16px;
+              text-align: left;
+              color: rgba(255, 255, 255, 1);
+            }
+          }
+        }
       }
-      ul {
-        display: flex;
-        flex-direction: column;
-        row-gap: 12px;
-        li {
-          a {
-            display: block;
-            width: 105px;
-            height: 21.32px;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 24.16px;
-            text-align: left;
-            color: rgba(255, 255, 255, 1);
+      .company {
+        width: 106px;
+        height: 166.99px;
+        margin-left: 99px;
+        h2 {
+          width: 99px;
+          height: 29.31px;
+          font-family: Sofia Pro;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 33.22px;
+          text-align: left;
+          color: rgba(246, 95, 95, 1);
+          margin-bottom: 15px;
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          row-gap: 12px;
+          li {
+            a {
+              display: block;
+              width: 105px;
+              height: 21.32px;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 24.16px;
+              text-align: left;
+              color: rgba(255, 255, 255, 1);
+            }
           }
         }
       }
     }
-    .company {
-      width: 106px;
-      height: 166.99px;
-      margin-left: 99px;
-      h2 {
-        width: 99px;
-        height: 29.31px;
-        font-family: Sofia Pro;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 33.22px;
-        text-align: left;
-        color: rgba(246, 95, 95, 1);
-        margin-bottom: 15px;
-      }
-      ul {
-        display: flex;
-        flex-direction: column;
-        row-gap: 12px;
-        li {
-          a {
-            display: block;
-            width: 105px;
-            height: 21.32px;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 24.16px;
-            text-align: left;
-            color: rgba(255, 255, 255, 1);
-          }
-        }
-      }
-    }
+
     .in-touch {
       width: 379px;
       height: 173.21px;
